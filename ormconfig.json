@@ -1,0 +1,11 @@
+{
+    "type": "sqlite",
+    "database": "./mydb.sqlite",
+    "entities": [
+        "models/*.ts"
+    ],
+    "migrations": [
+        "migration/*.ts"
+    ]
+}
+
