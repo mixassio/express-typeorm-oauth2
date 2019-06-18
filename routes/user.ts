@@ -1,6 +1,6 @@
-import { userGetAllAction, userGetByIdAction, userSaveAction } from './controllers/user';
+import { userGetAllAction, userGetByIdAction, userSaveAction } from '../controllers/user';
 
-const AppRoutes = [
+const UserRoute = [
     {
         path: "/users",
         method: "get",
@@ -18,4 +18,4 @@ const AppRoutes = [
     }
 ];
 
-export default AppRoutes;
+export default UserRoute;
